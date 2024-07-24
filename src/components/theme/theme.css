@@ -1,0 +1,114 @@
+
+
+
+
+
+
+
+
+
+
+:root {
+    --whiteColor:white;
+    --purpleColor:purple;
+  }
+  
+  body {
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+
+
+
+  /*----------------NAVBAR-----------------*/
+  
+  .header.light {
+    background-color:white;
+    color:var(--whiteColor);
+  }
+  
+  .header.dark {
+    background-color:black;
+    color:var(--purpleColor);
+  }
+
+
+  .nav-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  .nav-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 1300px;
+    text-align: center;
+    height: 90px;
+  }
+
+
+
+
+  .header button {
+    border:none;
+    outline: none;
+    margin:0px 30px;
+    border-radius: 10%;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+  }
+
+
+  
+
+
+  
+
+
+  .image-content {
+    position: relative;
+    top:0px;
+    left: 90px;
+    background:white;
+    width: 90px;
+    height: 27px;
+  
+  }
+
+  .sun-image {
+    position: relative;
+    top:-15px;
+    left: 35px;
+    visibility: visible;
+  }
+ 
+  .sun-image img {
+    width: 55px;
+    border-radius:10%;
+    object-fit: contain;
+  }
+
+
+.moon-image {
+    position: relative;
+    top:-67px;
+    left: -31px;
+}
+
+.moon-image img {
+    width: 40px;
+}
