@@ -1,3 +1,33 @@
+
+OVERVIEW:
+
+Context API toggle switcher toggle between light and dark theme in React JS.
+Apply different styles based on the current theme.
+
+Key Features
+-State Mangement
+-Context proivder 
+-useHook
+
+
+
+SCREENSHOTS :
+
+
+![screenshot theme switcher](https://github.com/user-attachments/assets/47c881d3-2cc1-47e3-b8fe-5d59750ae21c)
+
+![screenshot theme switcher dark](https://github.com/user-attachments/assets/0b103d95-b811-4a84-9081-6a6cf76ab772)
+
+
+
+Contact : Andrew Johnson andrewjohnson9393@gmail.com
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
